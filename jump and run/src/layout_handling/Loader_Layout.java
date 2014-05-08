@@ -46,7 +46,7 @@ public class Loader_Layout {
 		String next = "null";
 
 		// test
-		next = load(new Singleplayer(this));
+		next = load(new Menu(this));
 
 		while (true) {
 			switch (next) {
